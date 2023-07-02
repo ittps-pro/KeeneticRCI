@@ -5,14 +5,14 @@ from io         import open
 
 setup(
     # ? Genel Bilgiler
-    name         = "KeeneticPy",
-    version      = "0.4",
-    url          = "https://github.com/keyiflerolsun/KeeneticPy",
-    description  = "Python Lib for Keenetic Routers",
-    keywords     = ["KeeneticPy", "KekikAkademi", "keyiflerolsun"],
+    name         = "KeeneticRCI",
+    version      = "1.0",
+    url          = "https://github.com/AlperShal/KeeneticRCI",
+    description  = "Python library for remote code execution on Keenetic devices using RCI.",
+    keywords     = ["KeeneticRCI", "Keenetic"],
 
-    author       = "keyiflerolsun",
-    author_email = "keyiflerolsun@gmail.com",
+    author       = "AlperShal",
+    author_email = "alper@sal.web.tr",
 
     license      = "GPLv3+",
     classifiers  = [
@@ -22,7 +22,7 @@ setup(
     ],
 
     # ? Paket Bilgileri
-    packages         = ["KeeneticPy"],
+    packages         = ["KeeneticRCI"],
     python_requires  = ">=3.10",
     install_requires = [
         "pip",
