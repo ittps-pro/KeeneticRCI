@@ -7,6 +7,7 @@ Python library for remote code execution on Keenetic devices using RCI.
 - **All commands may not be available.**
 - **Any kind of special character (Ex: #@~!$%^:&) will probably break the script/result in failing to run the command.**
 - **Even though you can manually (via a browser) run commands using RCI over KeenDNS domains, the way this library authenticates causes fails/errors while working with KeenDNS.**
+- **Starting from KeeneticOS 4.0 you can use your router's iPv6 address to use this RCI library. (This is because access to router's GUI over iPv6 is enabled with version 4.0)**
 
 ## Installation
 
